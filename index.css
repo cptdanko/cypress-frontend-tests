@@ -1,0 +1,47 @@
+.parent {
+    display: flex;
+    flex-direction: row;
+}
+.box {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.companyFont {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.mainHeader {
+    font-size: 24px;
+    font-weight: bolder;
+    color: white;
+    text-decoration-style: wavy;
+}
+.notMainHeader {
+    font-size: 24px;
+    font-weight: bolder;
+    color: white;
+    text-decoration-style: wavy;
+}
+.lightgreen {
+    background-color: lightgreen;
+    box-shadow: 5px 5px 5px lightgreen;
+}
+.red {
+    background-color: red;
+    box-shadow: 5px 5px 5px red;
+}
+.violet {
+    background-color: violet;
+    box-shadow: 5px 5px 5px violet;
+}
+.thistle {
+    background-color: thistle;
+    box-shadow: 5px 5px 5px thistle;
+}
+@media only screen and (max-device-width: 667px) {
+    .parent {
+        flex-direction: column;
+    }
+}
