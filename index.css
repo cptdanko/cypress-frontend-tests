@@ -10,19 +10,24 @@
     padding: 5px;
 }
 .companyFont {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana sans-serif;
 }
-.mainHeader {
-    font-size: 24px;
+.title {
+    font-size: 32px;
     font-weight: bolder;
     color: white;
+    text-decoration: underline;
     text-decoration-style: wavy;
 }
-.notMainHeader {
-    font-size: 24px;
+.subHeader {
+    font-size: 18px;
     font-weight: bolder;
     color: white;
-    text-decoration-style: wavy;
+}
+.normalText {
+    font-size: 16px;
+    padding: 8px;
+    text-align: justify;
 }
 .lightgreen {
     background-color: lightgreen;
@@ -40,8 +45,13 @@
     background-color: thistle;
     box-shadow: 5px 5px 5px thistle;
 }
-@media only screen and (max-device-width: 667px) {
+@media only screen and (max-width: 690px) {
     .parent {
+        display: flex;
         flex-direction: column;
+        align-items: center;
+    }
+    .violet {
+        display: none;
     }
 }
